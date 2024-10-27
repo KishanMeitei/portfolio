@@ -1,0 +1,91 @@
+body {
+    /* width: 100dvw;
+    max-width: 480px; */
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background: url(background.jpg);
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 80px;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+    cursor: pointer;
+}
+li {
+    display:inline-block;
+    padding: 5px;
+}
+a {
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategrey;
+    transition: 0.5s ease-in;
+}
+
+ul li a:hover {
+    color: blueviolet; 
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    background-size: cover;
+}
+/* mark padding */
+ul {
+    padding: 0;
+}
+
+.profile > img {
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 15px black;
+}
+.profile > h5 {
+    justify-content: center;
+    text-align: center;
+}
+
+.info button {
+    padding: 5px 10px;
+    color:white ;
+    background-color:darkblue;
+    border-radius: 10px;
+    box-shadow: 3px 4px 7px blue;
+}
+.info button:hover {
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+.info span {
+    color:brown;
+}
+.profile h5 {
+    box-shadow: 5px 6px 10px black;
+    border-radius: 5px;
+    color: brown;
+    cursor: pointer;
+}
+.insta img{
+    width: 30px;
+    height: 30px;
+    margin-left: 1%;
+    border-radius: 8px;
+}
+
+.navBar, .info, .insta, .paragraph { 
+    margin-inline: 20px;
+}
+
+
